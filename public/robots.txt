@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vscommission.com/sitemap.xml
+Sitemap: https://www.vscommission.com/sitemap.xml
