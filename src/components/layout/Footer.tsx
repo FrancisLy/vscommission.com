@@ -107,8 +107,8 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-2 text-sm text-brand-200">
             <Mail className="h-4 w-4" />
-            <a href="mailto:hello@vscommission.com" className="hover:text-accent-400 transition-colors">
-              hello@vscommission.com
+            <a href="mailto:info@vscommission.com" className="hover:text-accent-400 transition-colors">
+              info@vscommission.com
             </a>
           </div>
         </div>

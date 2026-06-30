@@ -149,8 +149,8 @@ export default function Contact() {
                     </span>
                     <div>
                       <div className="text-sm font-semibold text-brand-700">Email</div>
-                      <a href="mailto:hello@vscommission.com" className="text-sm text-ink-soft hover:text-accent-500">
-                        hello@vscommission.com
+                      <a href="mailto:info@vscommission.com" className="text-sm text-ink-soft hover:text-accent-500">
+                        info@vscommission.com
                       </a>
                     </div>
                   </div>
