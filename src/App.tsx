@@ -11,6 +11,7 @@ import Brands from "@/pages/Brands";
 import About from "@/pages/About";
 import Insights from "@/pages/Insights";
 import Contact from "@/pages/Contact";
+import Review from "@/pages/Review";
 
 export default function App() {
   return (
