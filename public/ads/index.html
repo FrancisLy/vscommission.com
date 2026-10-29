@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>VSCommission Ads Analytics | Google Ads Performance Dashboard</title>
+<meta name="description" content="VSCommission Ads Analytics is a web application that connects to your own Google Ads account through the official Google Ads API with read-only access to track spend, balance, and campaign performance." />
+<link rel="canonical" href="https://www.vscommission.com/ads/" />
+<meta property="og:title" content="VSCommission Ads Analytics | Google Ads Performance Dashboard" />
+<meta property="og:description" content="Connect your own Google Ads account and track spend, balance, and campaign performance in one simple dashboard." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.vscommission.com/ads/" />
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a2233;background:#f7f9fc;line-height:1.65}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header.site{background:#0d1526;color:#fff;padding:18px 0}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.brand{font-weight:800;font-size:18px;color:#fff;text-decoration:none}
+.brand span{color:#22d3a5}
+nav.top a{color:#c8d2e4;text-decoration:none;margin-left:18px;font-size:14px}
+nav.top a:hover{color:#fff}
+.hero{background:#0d1526;color:#e8eefb;padding:64px 0 56px;text-align:center}
+.hero h1{font-size:clamp(30px,5vw,46px);line-height:1.15;color:#fff}
+.hero .tag{display:inline-block;margin:0 0 14px;padding:6px 14px;border:1px solid rgba(255,255,255,.25);border-radius:999px;font-size:13px;color:#a9e8d6}
+.hero p.sub{max-width:720px;margin:18px auto 0;font-size:clamp(16px,2vw,19px);color:#c3cde0}
+main{padding:56px 0}
+section{margin-bottom:56px}
+h2{font-size:clamp(22px,3vw,30px);margin-bottom:14px;color:#0d1526}
+p.lead{color:#3c4a63;max-width:760px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:26px}
+.card{background:#fff;border:1px solid #e3e9f2;border-radius:10px;padding:22px}
+.card h3{font-size:17px;margin-bottom:8px;color:#0d1526}
+.card p{font-size:14.5px;color:#4a5a75}
+.steps{counter-reset:s;margin-top:26px}
+.step{display:flex;gap:14px;margin-bottom:16px}
+.step b{flex:0 0 30px;height:30px;border-radius:8px;background:#0d1526;color:#22d3a5;display:grid;place-items:center;font-size:14px}
+.step p{color:#3c4a63;font-size:15px}
+.note{background:#eef7f3;border:1px solid #cfe9dd;border-radius:10px;padding:16px 18px;font-size:14.5px;color:#20503f;margin-top:30px}
+.disclaimer{text-align:center;color:#6a7893;font-size:13px;margin-top:40px}
+footer.site{background:#0d1526;color:#8fa0bd;padding:28px 0;font-size:14px}
+footer.site .wrap{display:flex;flex-wrap:wrap;gap:10px 24px;align-items:center;justify-content:space-between}
+footer.site a{color:#d5deee;text-decoration:none}
+footer.site a:hover{color:#fff}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/">VSCommission <span>Ads Analytics</span></a>
+    <nav class="top">
+      <a href="/#publishers">Publishers</a>
+      <a href="/#advertisers">Advertisers</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="tag">Read-only &middot; Secure &middot; For advertisers</span>
+    <h1>VSCommission Ads Analytics</h1>
+    <p class="sub">A web application that connects to your own Google Ads account through the official Google Ads API &mdash; with read-only access &mdash; so you can track spend, account balance, and campaign performance in one simple dashboard.</p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+    <section>
+      <h2>What is VSCommission Ads Analytics?</h2>
+      <p class="lead">VSCommission Ads Analytics helps advertisers monitor their own Google Ads accounts. After you sign in with Google and link an account, we use the official Google Ads API with <strong>read-only</strong> access to display your data. We never create, edit, or delete campaigns, ads, or budgets, and we never make charges.</p>
+    </section>
+
+    <section>
+      <h2>How the application uses your Google Ads data</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Connect your Google Ads account</h3>
+          <p>Sign in with Google and choose the ad accounts you want to monitor. We read only your account ID and account name &mdash; nothing is modified on your behalf.</p>
+        </div>
+        <div class="card">
+          <h3>Track spend and balance</h3>
+          <p>See how much each linked account has spent and what remains of your budgets. Figures come directly from the Google Ads API and refresh in your dashboard.</p>
+        </div>
+        <div class="card">
+          <h3>Monitor campaign metrics</h3>
+          <p>Follow impressions, clicks, click-through rate, and conversions for every campaign, so you always know what is working and where budget goes.</p>
+        </div>
+        <div class="card">
+          <h3>Your data stays yours</h3>
+          <p>Data is used only to show you your own authorized accounts. It is never sold, never used for advertising, and never shared with third parties. Revoke access at any time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>How it works</h2>
+      <div class="steps">
+        <div class="step"><b>1</b><p><strong>Sign in with Google.</strong> You review and approve every permission on Google's own consent screen before anything is shared.</p></div>
+        <div class="step"><b>2</b><p><strong>Link your ad accounts.</strong> Pick the Google Ads accounts you want to monitor. Access is strictly read-only.</p></div>
+        <div class="step"><b>3</b><p><strong>View your dashboard.</strong> Spend, balance, and campaign metrics update automatically. Disconnect any time with one click.</p></div>
+      </div>
+      <div class="note">Your authorization can be revoked at any time from your Google Account's Third-party apps page, or by emailing <a href="mailto:info@vscommission.com">info@vscommission.com</a>. See our <a href="/privacy">Privacy Policy</a> for full details, including the Google API Services Limited Use disclosure.</div>
+    </section>
+
+    <p class="disclaimer">VSCommission Ads Analytics is not affiliated with or endorsed by Google.</p>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>&copy; 2026 GrowthNova Limited &middot; Hong Kong</span>
+    <span>
+      <a href="/privacy">Privacy Policy</a> &nbsp;
+      <a href="/terms">Terms of Service</a> &nbsp;
+      <a href="mailto:info@vscommission.com">info@vscommission.com</a>
+    </span>
+  </div>
+</footer>
+</body>
+</html>
