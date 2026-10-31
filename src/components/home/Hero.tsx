@@ -59,10 +59,7 @@ export default function Hero() {
             <span className="text-white/50">Not affiliated with or endorsed by Google.</span>
           </p>
 
-          <div
-            className="mt-10 flex animate-fade-up flex-col gap-4 sm:flex-row"
-            style={{ animationDelay: "0.2s" }}
-          >
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Link to="/contact" className="btn-primary text-base">
               Get Started
               <ArrowRight className="h-5 w-5" />
@@ -77,7 +74,7 @@ export default function Hero() {
 
           {/* Trust indicators */}
           <div
-            className="mt-20 grid animate-fade-up grid-cols-2 gap-6 md:grid-cols-4"
+            className="mt-20 grid grid-cols-2 gap-6 md:grid-cols-4"
             style={{ animationDelay: "0.3s" }}
           >
             {trustIndicators.map((item) => (
