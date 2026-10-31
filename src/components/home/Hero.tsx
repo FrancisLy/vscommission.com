@@ -34,22 +34,29 @@ export default function Hero() {
 
       <div className="container relative z-10 py-32">
         <div className="max-w-4xl">
-          <div className="inline-flex animate-fade-in items-center gap-2 rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-sm text-white/80 backdrop-blur-sm">
+          <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-sm text-white/80 backdrop-blur-sm">
             <Sparkles className="h-4 w-4 text-accent-400" />
-            Trusted affiliate platform across 4 markets
+            VSCommission Ads Analytics · Trusted affiliate platform across 4 markets
           </div>
 
-          <h1 className="mt-6 animate-fade-up text-display-xl text-white">
+          <h1 className="mt-6 text-display-xl text-white">
             Trusted to <span className="text-gradient-light">Perform</span>
           </h1>
 
-          <p
-            className="mt-6 max-w-2xl animate-fade-up text-lg leading-relaxed text-brand-100 md:text-xl"
-            style={{ animationDelay: "0.1s" }}
-          >
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-brand-100 md:text-xl">
             We connect <span className="text-gradient-light font-semibold">global brands</span> with{" "}
             <span className="text-gradient-light font-semibold">diverse publishers</span> across the US,
             UK, Canada & Australia—driving measurable growth through performance marketing.
+          </p>
+
+          <p className="mt-4 max-w-2xl text-sm leading-relaxed text-white/70">
+            <span className="font-semibold text-white">VSCommission Ads Analytics</span> helps
+            advertisers monitor their own Google Ads accounts—spend, balances, and campaign
+            metrics—read-only via the official Google Ads API.{" "}
+            <Link to="/ads/" className="font-semibold text-accent-400 underline underline-offset-4">
+              Open the dashboard →
+            </Link>{" "}
+            <span className="text-white/50">Not affiliated with or endorsed by Google.</span>
           </p>
 
           <div
